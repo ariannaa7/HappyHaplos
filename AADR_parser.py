@@ -5,7 +5,36 @@ Created on Tue Mar  5 09:41:55 2024
 
 @author: ariannaalamshahi
 """
+'''
+AADR_parser.py
 
+Description: This program create two dataframes which are subsets of the AADR dataset.
+One dataframe will be contain entries which feature Y-haplogroup information and the other
+will contain entries which feature mitochondrial DNA haplogroup information.
+
+User-defined functions: none
+
+Non-standard modules: pandas, re
+    
+Procedure:
+    1. Read the input file in as a dataframe
+    2. Remove irrelevant columns from the dataframe
+    4. Convert years so they are no longer based on year befores 1950
+    5. Create two separate dataframes (one for Y one for mitochondrial)
+    6. Remove entries which don't include haplogroup information from each dataframe
+    7. Fix haplogroup formatting issues
+    8. Output the files
+
+Input: AADR Annotation.xlsx
+Output: dataframes will be outputted to AADR_y.txt and AADR_mt.txt in the 01_CleanData directory
+
+Usage: python3 AADR_parser.py Raw_Data/AADR_54.1/AADR\ Annotation.xlsx
+
+Version: 1.00
+Date: 2023-03-23
+Name: Arianna Alamshahi
+
+'''
 #%% Installs & Imports
 import sys
 from pathlib import Path
