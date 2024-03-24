@@ -214,7 +214,7 @@ ui = fluidPage(
         ),
         tabPanel("Frequency", # tab name is "Frequency"
                  htmlOutput("frequencyExplanation"), # preface message
-                 leafletOutput("heatmap", width = "120vh", height = "60vh"), # the heatmap
+                 leafletOutput("heatmap", width = "100vh", height = "60vh"), # the heatmap
                  gt_output("tableView") # the table view (with flags!)
         )
       )
