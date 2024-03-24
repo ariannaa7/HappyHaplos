@@ -5,7 +5,7 @@ HappyHaplos is an Rshiny app that allows you to determine haplogroup lineage, vi
 There are three input files needed to go through the following steps
 1. Then Allen Ancient DNA Resource (AADR) dataset which contains a large amount of information, notably haplogroups and associated contries (AADR Annotation.xlsx)
 2. The ISOGG Y-chromosome haplogroup treefile to trace paternal lineage (chrY_hGrpTree_isogg2016.txt)
-3. The ISOGG mitochondial DNA haplogroup treefile to trace maternal lineage (mt_phyloTree_b17_Tree2.txt)
+3. The PhyloTree mitochondial DNA haplogroup treefile to trace maternal lineage (mt_phyloTree_b17_Tree2.txt)
 
 More information on how to access these files in the next steps!
 
